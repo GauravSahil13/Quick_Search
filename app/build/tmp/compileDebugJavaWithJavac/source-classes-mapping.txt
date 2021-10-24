@@ -1,0 +1,7 @@
+com/sahil/quicksearch/BuildConfig.java
+ com.sahil.quicksearch.BuildConfig
+com/sahil/quicksearch/MainActivity.java
+ com.sahil.quicksearch.MainActivity
+ com.sahil.quicksearch.MainActivity$1
+ com.sahil.quicksearch.MainActivity$2
+ com.sahil.quicksearch.MainActivity$3

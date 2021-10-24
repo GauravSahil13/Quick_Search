@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sahil.quicksearch"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <application
+13-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:7:5-24:19
+14        android:allowBackup="true"
+14-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\Sahil\.gradle\caches\transforms-3\97e7ec19bd11dff7ae3d399ac9d0fa5b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.QuickSearch" >
+21-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:13:9-49
+22        <activity
+22-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:14:9-22:20
+23            android:name="com.sahil.quicksearch.MainActivity"
+23-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:15:13-41
+24            android:exported="true" >
+24-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:16:13-36
+25            <intent-filter>
+25-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:18:17-69
+26-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:20:17-77
+28-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+31-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:23:9-84
+31-->C:\Users\Sahil\AndroidStudioProjects\QuickSearch\app\src\main\AndroidManifest.xml:23:19-82
+32        <activity
+32-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+33            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+33-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+34            android:exported="false"
+34-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+35            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+35-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+36
+37        <meta-data
+37-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+38            android:name="com.google.android.gms.version"
+38-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+39            android:value="@integer/google_play_services_version" />
+39-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sahil\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+40    </application>
+41
+42</manifest>
